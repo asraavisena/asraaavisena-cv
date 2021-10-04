@@ -8,7 +8,7 @@ import store from "./store";
 function App() {
   return (
     <Provider store={store}>
-      <div>
+      <div className="bg-gray-100">
         <Navbar />
         <AboutMe />
         <Skills />

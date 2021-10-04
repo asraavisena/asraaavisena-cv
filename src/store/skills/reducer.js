@@ -5,7 +5,7 @@ const initialState = {
     {
       skills: {
         name: "html",
-        rating: 95,
+        rating: 91,
       },
     },
     {
