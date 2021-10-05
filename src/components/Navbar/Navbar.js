@@ -15,17 +15,17 @@ export default function Navbar() {
         <li className="mr-6">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
-            href="#2"
+            href="#skills"
           >
-            Education
+            Skills
           </a>
         </li>
         <li className="mr-6">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
-            href="#skills"
+            href="#educations"
           >
-            Skills
+            Education
           </a>
         </li>
         <li className="mr-6">
