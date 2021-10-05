@@ -5,6 +5,8 @@ import Skills from "./components/Skills/Skills";
 import { Provider } from "react-redux";
 import store from "./store";
 import Educations from "./components/Educations/Educations";
+import Portofolios from "./components/Portofolios/Portofolios";
+import WorkExperiences from "./components/WorkExperiences/WorkExperiences";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <AboutMe />
         <Skills />
         <Educations />
+        <WorkExperiences />
+        <Portofolios />
       </div>
     </Provider>
   );

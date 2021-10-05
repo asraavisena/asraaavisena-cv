@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="py-3 bg-green-600 flex justify-left sticky top-0 z-50">
       <ul className="flex mx-9">
-        <li className="mr-6">
+        <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
             href="#profile"
@@ -12,7 +12,7 @@ export default function Navbar() {
             About Me
           </a>
         </li>
-        <li className="mr-6">
+        <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
             href="#skills"
@@ -20,7 +20,7 @@ export default function Navbar() {
             Skills
           </a>
         </li>
-        <li className="mr-6">
+        <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
             href="#educations"
@@ -28,10 +28,18 @@ export default function Navbar() {
             Education
           </a>
         </li>
-        <li className="mr-6">
+        <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
-            href="#4"
+            href="#work-experiences"
+          >
+            Work Experiences
+          </a>
+        </li>
+        <li className="mr-7">
+          <a
+            className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
+            href="#portofolios"
           >
             Portofolio
           </a>

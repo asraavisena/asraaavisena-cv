@@ -37,7 +37,8 @@ export default function AboutMe() {
             was a student at University of applied science Berlin, German with
             the major International Media Computing. In 2021, I joined a
             Javascript Bootcamp for four months and graduate with the predicate
-            honors.
+            honors. At moment I work at Digital Lab Sprout as a{" "}
+            <span className="font-bold">Software Engineer</span>
           </p>
 
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25 mt-20"></div>

@@ -13,7 +13,7 @@ export default function Educations() {
       id="educations"
       className="max-w-5xl flex h-auto flex-col flex-wrap mx-auto "
     >
-      <h1 className="text-3xl mb-5"> Educations</h1>
+      <h1 className="text-3xl mb-5">Educations</h1>
       <div className="container mx-auto w-full h-full">
         <div className="relative wrap overflow-hidden px-10 h-full">
           <div
