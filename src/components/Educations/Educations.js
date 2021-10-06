@@ -11,7 +11,7 @@ export default function Educations() {
   return (
     <div
       id="educations"
-      className="max-w-5xl flex h-auto flex-col flex-wrap mx-auto "
+      className="max-w-5xl flex h-auto flex-col flex-wrap mx-auto mb-5"
     >
       <h1 className="text-3xl mb-5">Educations</h1>
       <div className="container mx-auto w-full h-full">

@@ -10,10 +10,10 @@ export default function Education(props) {
         <div className="mx-auto font-semibold text-lg text-white"></div>
       </div>
       <div className="order-1 bg-green-300 opacity-70 rounded-lg shadow-xl w-5/12 px-6 py-4">
-        <h3 className="mb-3 font-bold text-gray-800 text-xl">
+        <h3 className="mb-3 font-bold text-gray-900 text-xl">
           {props.education.date}
         </h3>
-        <p className="text-sm leading-snug font-semibold tracking-wide text-gray-900 text-opacity-100">
+        <p className="text-base leading-snug font-semibold tracking-wide text-gray-900 text-opacity-100">
           {props.education.description}
         </p>
       </div>
