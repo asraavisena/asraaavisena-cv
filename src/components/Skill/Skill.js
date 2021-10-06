@@ -5,12 +5,12 @@ export default function ProgSkills(props) {
     <div className="relative pt-1">
       <div className="flex mb-2 items-center justify-between">
         <div>
-          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-100">
+          <span className="text-xs font-bold inline-block py-1 px-2 uppercase rounded-full text-green-800 bg-green-100">
             {props.skills.skills.name}
           </span>
         </div>
         <div className="text-right">
-          <span className="text-xs font-semibold inline-block text-green-600">
+          <span className="text-xs font-semibold inline-block text-green-800">
             {props.skills.skills.rating}%
           </span>
         </div>

@@ -18,7 +18,9 @@ export default function Skills() {
     >
       <h1 className="text-3xl mb-5">Skills</h1>
       <div className="flex-col justify-center mb-8">
-        <h2 className="text-xl mb-3 text-center">Programming Languages</h2>
+        <h2 className="text-xl mb-3 text-center text-gray-800 font-semibold ">
+          Programming Languages
+        </h2>
         <div className="grid grid-cols-3 gap-5">
           {progSkills.map((el, index) => {
             return <Skill key={el.skills.name + index} skills={el} />;
@@ -26,7 +28,9 @@ export default function Skills() {
         </div>
       </div>
       <div className="flex-col justify-center mb-8">
-        <h2 className="text-xl mb-3 text-center">Front End Skills</h2>
+        <h2 className="text-xl mb-3 text-center text-gray-800 font-semibold ">
+          Front End Skills
+        </h2>
         <div className="grid grid-cols-3 gap-5">
           {frontEnd.map((el, index) => {
             return <Skill key={el.skills.name + index} skills={el} />;
@@ -34,7 +38,9 @@ export default function Skills() {
         </div>
       </div>
       <div className="flex-col justify-center mb-8">
-        <h2 className="text-xl mb-3 text-center">Back End Skills</h2>
+        <h2 className="text-xl mb-3 text-center text-gray-800 font-semibold ">
+          Back End Skills
+        </h2>
         <div className="grid grid-cols-3 gap-5">
           {backEnd.map((el, index) => {
             return <Skill key={el.skills.name + index} skills={el} />;
@@ -42,7 +48,9 @@ export default function Skills() {
         </div>
       </div>
       <div className="flex-col justify-center mb-8">
-        <h2 className="text-xl mb-3 text-center">Others Skills</h2>
+        <h2 className="text-xl mb-3 text-center text-gray-800 font-semibold ">
+          Others Skills
+        </h2>
         <div className="grid grid-cols-3 gap-5">
           {others.map((el, index) => {
             return <Skill key={el.skills.name + index} skills={el} />;
