@@ -15,6 +15,14 @@ export default function Navbar() {
         <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
+            href="#work-experiences"
+          >
+            Work Experiences
+          </a>
+        </li>
+        <li className="mr-7">
+          <a
+            className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
             href="#skills"
           >
             Skills
@@ -28,22 +36,14 @@ export default function Navbar() {
             Education
           </a>
         </li>
-        <li className="mr-7">
-          <a
-            className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
-            href="#work-experiences"
-          >
-            Work Experiences
-          </a>
-        </li>
-        <li className="mr-7">
+        {/* <li className="mr-7">
           <a
             className="text-white uppercase text-lg font-bold hover:text-green-300 hover:underline font-navbar "
             href="#portofolios"
           >
             Portofolio
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

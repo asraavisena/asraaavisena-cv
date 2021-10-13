@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills";
 import { Provider } from "react-redux";
 import store from "./store";
 import Educations from "./components/Educations/Educations";
-import Portofolios from "./components/Portofolios/Portofolios";
+// import Portofolios from "./components/Portofolios/Portofolios";
 import WorkExperiences from "./components/WorkExperiences/WorkExperiences";
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <div className="bg-gray-100 pb-10">
         <Navbar />
         <AboutMe />
+        <WorkExperiences />
         <Skills />
         <Educations />
-        <WorkExperiences />
-        <Portofolios />
+        {/* <Portofolios /> */}
       </div>
     </Provider>
   );
