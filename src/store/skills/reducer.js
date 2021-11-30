@@ -94,12 +94,6 @@ const initialState = {
         rating: 87,
       },
     },
-    {
-      skills: {
-        name: "redux",
-        rating: 87,
-      },
-    },
   ],
   backEnd: [
     {
