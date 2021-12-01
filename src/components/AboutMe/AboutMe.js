@@ -11,9 +11,9 @@ export default function AboutMe() {
         <div className="p-4 md:p-8 text-center lg:text-left flex-col h-full justify-between ">
           <h1 className="text-3xl font-bold pt-8 lg:pt-0">Asra Avisena</h1>
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-          <p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
+          <p className="pt-4 text-sm lg:text-base font-bold flex items-center justify-center lg:justify-start">
             <svg
-              className="h-4 fill-current text-green-700 pr-4"
+              className="h-4 fill-current text-green-700 lg:pr-4 lg:block hidden"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
             >
@@ -23,7 +23,7 @@ export default function AboutMe() {
           </p>
           <p className="pt-2 text-gray-800 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
             <svg
-              className="h-4 fill-current text-green-700 pr-4"
+              className="h-4 fill-current text-green-700 lg:pr-4 lg:block hidden"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -31,7 +31,7 @@ export default function AboutMe() {
             </svg>
             asra.avisena@gmail.com
           </p>
-          <p className="pt-8 text-m flex-grow mb-auto">
+          <p className="pt-8 text-sm lg:text-base flex-grow mb-auto">
             A full stack programmer who needs more challenges and craving for
             the newest knowledge of programming languages and technologies. I
             was a student at University of applied science Berlin, German with
@@ -41,8 +41,8 @@ export default function AboutMe() {
             <span className="font-bold">Software Engineer</span>
           </p>
 
-          <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25 mt-20"></div>
-          <div className="mt-8 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap gap-7">
+          <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25 lg:mt-20"></div>
+          <div className="mt-8 pb:8 lg:pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap gap-7">
             <a
               className="link"
               href="https://github.com/asraavisena"

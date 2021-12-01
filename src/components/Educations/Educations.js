@@ -13,11 +13,12 @@ export default function Educations() {
       id="educations"
       className="max-w-5xl flex h-auto flex-col flex-wrap mx-auto mb-5"
     >
-      <h1 className="text-3xl mb-5">Educations</h1>
-      <div className="container mx-auto w-full h-full">
-        <div className="relative wrap overflow-hidden px-10 h-full">
+      <div className="mx-6 lg:mx-0">
+        <h1 className="text-3xl mb-5">Educations</h1>
+        <div className="container mx-auto w-full h-full"></div>
+        <div className="relative wrap overflow-hidden lg:px-10 h-full">
           <div
-            className="border-2-2 absolute border-opacity-70 border-green-500 min-h-full border"
+            className="border-2-2 absolute border-opacity-70 border-green-500 min-h-full border lg:block hidden"
             style={{ left: "50%" }}
           ></div>
           {educations.map((el, index) => {
