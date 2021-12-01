@@ -5,11 +5,11 @@ export default function WorkExperience(props) {
     <div className="max-w-full rounded overflow-hidden shadow-lg bg-white lg:mb-0 mb-5">
       <div className="px-6 py-4">
         <div className="lg:mb-2 mb-1">
-          <p className="font-bold flex text-lg lg:text-xl items-center justify-center ">
+          <p className="font-bold flex text-lg lg:text-xl items-center justify-start lg:justify-center ">
             {props.workExperience.name}
           </p>
 
-          <p className="text-gray-800 text-sm lg:text-sm flex items-center justify-center lg:justify-start">
+          <p className="text-gray-800 text-sm lg:text-sm flex items-center justify-start">
             <svg
               className="h-3 fill-current text-green-700 pr-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export default function WorkExperience(props) {
           </p>
         </div>
         <div className="lg:mb-2 mb-4">
-          <p className="text-gray-800 text-sm lg:text-base font-semibold flex items-center justify-center lg:justify-start lg:mb-0 mb-1">
+          <p className="text-gray-800 text-sm lg:text-base font-semibold flex items-center justify-start lg:mb-0 mb-1">
             <svg
               className="h-4 fill-current text-green-700 pr-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function WorkExperience(props) {
             </svg>
             {props.workExperience.title}
           </p>
-          <p className="text-gray-800 text-sm lg:text-base font-semibold flex items-center justify-center lg:justify-start">
+          <p className="text-gray-800 text-sm lg:text-base font-semibold flex items-center justify-start">
             <svg
               className="h-4 fill-current text-green-700 pr-1"
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function WorkExperience(props) {
           </p>
         </div>
         <div className="">
-          <p className="text-gray-700 text-sm text-center">
+          <p className="text-gray-700 text-sm">
             {props.workExperience.responsibles}
           </p>
         </div>
