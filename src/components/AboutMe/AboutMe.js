@@ -42,7 +42,7 @@ export default function AboutMe() {
           </p>
 
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25 lg:mt-20"></div>
-          <div className="mt-8 pb:8 lg:pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap gap-7">
+          <div className="mt-8 pb:8 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap gap-7">
             <a
               className="link"
               href="https://github.com/asraavisena"
@@ -80,7 +80,7 @@ export default function AboutMe() {
       <div className="w-full lg:w-2/5">
         <img
           src={`${ProfilePic}`}
-          className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+          className="rounded-none lg:rounded-r-lg shadow-2xl hidden lg:block"
           alt="profile-pic"
         />
       </div>

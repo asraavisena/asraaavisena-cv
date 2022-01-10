@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <Provider store={store}>
-      <div className="bg-gray-100 pb-10 w-full">
+      <div className="bg-gray-100 dark:bg-gray-600 pb-10 w-full">
         <Navbar />
         <AboutMe />
         <WorkExperiences />

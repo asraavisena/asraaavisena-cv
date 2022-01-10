@@ -17,9 +17,11 @@ export default function Skills() {
       className="max-w-5xl flex h-auto flex-col flex-wrap mx-auto "
     >
       <div className="mx-6 lg:mx-0">
-        <h1 className="text-3xl mb-5">Skills</h1>
+        <h1 className="text-3xl mb-5 dark:text-gray-200 dark:text-gray-200">
+          Skills
+        </h1>
         <div className="flex-col justify-center mb-8">
-          <h2 className="lg:text-xl text-lg mb-3 lg:text-center text-gray-800 font-semibold ">
+          <h2 className="lg:text-xl text-lg mb-3 lg:text-center text-gray-800 font-semibold dark:text-gray-100">
             Programming Languages
           </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
@@ -29,7 +31,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="flex-col justify-center mb-8">
-          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold ">
+          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold dark:text-gray-100">
             Front End Skills
           </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
@@ -39,7 +41,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="flex-col justify-center mb-8">
-          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold ">
+          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold dark:text-gray-100">
             Back End Skills
           </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
@@ -49,7 +51,7 @@ export default function Skills() {
           </div>
         </div>
         <div className="flex-col justify-center mb-8">
-          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold ">
+          <h2 className="lg:text-xl text-lg text-xl mb-3 lg:text-center text-gray-800 font-semibold dark:text-gray-100">
             Others Skills
           </h2>
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
