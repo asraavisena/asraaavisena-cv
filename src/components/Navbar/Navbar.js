@@ -1,5 +1,6 @@
 import React from "react";
 import { ThemeContext } from "../ThemeContext/ThemeContext";
+import { RiMoonClearFill, RiSunFill } from "react-icons/ri";
 
 export default function Navbar() {
   const { theme, setTheme } = React.useContext(ThemeContext);
@@ -50,28 +51,18 @@ export default function Navbar() {
           </a>
         </li> */}
         </ul>
-        <div className="transition duration-500 ease-in-out rounded-full p-2">
+        <div className="transition duration-500 ease-in-out rounded-full flex items-center cursor-pointer">
           {theme === "dark" ? (
-            <p className="text-white uppercase font-bold hover:text-green-300 hover:underline font-navbar ">
-              <svg
+            <p className="text-white text-xl uppercase font-bold hover:text-green-300 hover:underline font-navbar ">
+              <RiMoonClearFill
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="h-4 fill-current "
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm2 0c0-5.514 4.486-10 10-10v20c-5.514 0-10-4.486-10-10z" />
-              </svg>
+              />
             </p>
           ) : (
-            <p className="text-black uppercase font-bold hover:text-green-300 hover:underline font-navbar">
-              <svg
+            <p className="text-white text-xl uppercase font-bold hover:text-green-300 hover:underline font-navbar">
+              <RiSunFill
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                className="h-4 fill-current "
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10v-20zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z" />
-              </svg>
+              />
             </p>
           )}
         </div>
