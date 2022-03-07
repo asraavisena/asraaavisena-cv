@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import WorkExperience from "../WorkExperience/WorkExperience";
+import WorkExperience from "./WorkExperience/WorkExperience";
 
 export default function WorkExperiences() {
   const { workExperiences } = useSelector((state) => {

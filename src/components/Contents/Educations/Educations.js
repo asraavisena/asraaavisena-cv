@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Education from "../Education/Education";
+import Education from "./Education/Education";
 
 export default function Educations() {
   const { educations } = useSelector((state) => {

@@ -15,7 +15,8 @@ const initialState = {
       location: "Tanggerang, Banten",
       duration: "October 2021 - now",
       title: "Software Engineer",
-      responsibles: "",
+      responsibles:
+        "Create, manage, maintain and develop websites/apps of Digital Sprout Lab's clients",
     },
   ],
 };

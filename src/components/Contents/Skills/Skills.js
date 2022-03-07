@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Skill from "../Skill/Skill";
+import Skill from "./Skill/Skill";
 
 export default function Skills() {
   const { progSkills, frontEnd, backEnd, others } = useSelector((state) => {
