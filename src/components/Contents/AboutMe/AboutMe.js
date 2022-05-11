@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div
       id="profile"
-      className="max-w-5xl flex justify-center h-auto flex-wrap mx-auto my-32 lg:my-16"
+      className="max-w-5xl flex justify-center h-auto flex-wrap mx-auto my-20 lg:my-16"
     >
       <div className="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0 items-stretch ">
         <div className="p-4 md:p-8 text-center lg:text-left flex-col h-full justify-between ">
@@ -37,8 +37,8 @@ export default function AboutMe() {
             was a student at University of applied science Berlin, German with
             the major International Media Computing. In 2021, I joined a
             Javascript Bootcamp for four months and graduate with the predicate
-            honors. At moment I work at Digital Lab Sprout as a{" "}
-            <span className="font-bold">Software Engineer</span>
+            honors. At moment I work at Titipku (Titip Technology Pte Ltd) as a{" "}
+            <span className="font-bold">Frontend Engineer</span>
           </p>
 
           <div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25 lg:mt-20"></div>
