@@ -7,7 +7,7 @@ const initialState = {
       location: "Tanggerang, Banten",
       duration: "April 2022 - now",
       title: "Frontend Engineer",
-      responsibles: "",
+      responsibles: "Maintain and develop all Titipku internal websites",
     },
     {
       name: "Sprout Digital Labs",
@@ -15,7 +15,7 @@ const initialState = {
       duration: "October 2021 - April 2022",
       title: "Software Engineer",
       responsibles:
-        "Create, manage, maintain and develop websites/apps of Digital Sprout Lab's clients",
+        "Build, manage, maintain and develop websites/apps of Digital Sprout Lab's clients",
     },
     {
       name: "CheQQme Sdn Bhd",
